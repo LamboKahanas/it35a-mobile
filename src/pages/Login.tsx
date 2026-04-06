@@ -17,7 +17,7 @@ const Login: React.FC = () => {
                 </IonToolbar>
             </IonHeader>
             <IonContent fullscreen>
-                <IonButton expand="full" onClick={() => dologin}>
+                <IonButton expand="full" onClick={() => dologin()}>
                     Login
                 </IonButton>
 
