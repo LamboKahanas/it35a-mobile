@@ -5,6 +5,7 @@ const Login: React.FC = () => {
 
     const dologin = () => {
         navigation.push('/app', 'forward', 'replace');
+    }
     return (
         <IonPage>
             <IonHeader>
